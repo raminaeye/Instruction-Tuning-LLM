@@ -1,0 +1,18 @@
+# Dependencies for the Instruction-Tuning-LLM notebook.
+# Install with: pip install -r requirements.txt
+# A GPU is recommended for the training cells; CPU works for the
+# prompting and evaluation cells but is slow.
+
+datasets>=2.0
+transformers>=4.30
+accelerate>=0.20
+peft>=0.4
+trl>=0.4
+evaluate>=0.4
+torch>=2.0
+sentencepiece>=0.1.99
+unidecode>=1.3
+numpy>=1.22
+pandas>=1.4
+jupyter>=1.0
+ipython>=8.0
